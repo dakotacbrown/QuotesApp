@@ -8,6 +8,12 @@
 
 import SwiftUI
 
+/*
+ ContentView.swift
+ Takes the QuotesView and displays it on the main
+ ContentView. Also adds a background image.
+ */
+
 struct ContentView: View {
     var quotes: [Quote]
     var body: some View {

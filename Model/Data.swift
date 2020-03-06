@@ -9,6 +9,12 @@
 import SwiftUI
 import UIKit
 
+/*
+ Data.swift
+ Loads the json file which houses all of the
+ quotes then puts those quotes into an array
+ */
+
 let quoteData: [Quote] = load("quotes.json")
 
 func load<T: Decodable>(_ filename: String, as type: T.Type = T.self) -> T {

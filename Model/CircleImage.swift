@@ -8,6 +8,12 @@
 
 import SwiftUI
 
+/*
+ CircleImage.swift
+ Takes an image and turns it into a circular
+ image with a shadow and surrounding gray cirlce
+ */
+
 struct CircleImage: View {
     var imageName: String
     var body: some View {

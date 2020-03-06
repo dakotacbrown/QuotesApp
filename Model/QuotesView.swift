@@ -8,6 +8,13 @@
 
 import SwiftUI
 
+/*
+ QuotesView.swift
+ Takes the quotes from an array of quotes and
+ displays them within a scrollview
+ */
+
+
 struct QuotesView: View {
     var quotes: [Quote]
     var body: some View {
